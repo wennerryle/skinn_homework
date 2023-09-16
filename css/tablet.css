@@ -1,0 +1,28 @@
+@media (width < 1370px) and (width >= 781px) {
+    .header-container, .content {
+      margin: 0 50px;
+    }
+}
+
+@media (width < 950px) {
+  .fourth_block {
+    height: auto;
+    padding-top: 0;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .fourth_block > * {
+    width: 100%;
+    align-self: center;
+  }
+
+  .fourth_block > img {
+    width: 94%;
+  }
+
+  .quote__companies {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
