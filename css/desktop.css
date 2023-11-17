@@ -360,6 +360,7 @@ footer {
 
 .button {
     transition: background-color ease-in-out 0.2s;
+    cursor: pointer;
     border: 1px solid #DACEC6;
     background: #F1EBE7;
     color: #68513F;
@@ -376,6 +377,95 @@ footer {
     cursor: pointer;
 }
 
+.selectable:hover {
+    color: #68513F;
+}
+
+/* Footer's styles */
+footer {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    background: #E7DED8;
+    border-radius: 10px;
+}
+ 
+.footer_content {
+    display: flex;
+    padding: 50px 40px;
+    align-self: center;
+    margin: 0 auto;
+    min-height: 253px;
+    width: 100%;
+    max-width: 1210px;
+    justify-content: space-between;
+    gap: 8%;
+}
+ 
+.footer_item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+.footer_item span {
+    color: #68513F;
+}
+ 
+.footer_item h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+}
+ 
+.footer_columns {
+    column-count: 2;
+    column-gap: 52px;
+}
+ 
+.footer_columns a {
+    display: block;
+    padding-bottom: 9px;
+}
+ 
+.footer_socialmedia {
+    max-width: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+/* Utilities styles */
+ 
+.handmade_font {
+    color: #68513F;
+    font-family: Style Script;
+    font-size: 112px;
+}
+ 
+.round {
+    border-radius: 73px;
+}
+ 
+.button {
+    transition: background-color ease-in-out 0.2s;
+    border: 1px solid #DACEC6;
+    background: #F1EBE7;
+    color: #68513F;
+    padding: 12px 21px;
+    width: max-content;
+}
+ 
+.button:hover {
+    background: #c9b4a7;
+}
+ 
+.selectable {
+    transition: color ease-in-out 0.2s;
+    cursor: pointer;
+}
+ 
 .selectable:hover {
     color: #68513F;
 }
